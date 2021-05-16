@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tinderkihunism</string>
+    <string name="facebook_app_id">296617015464653</string>
+    <string name="fb_login_protocol_scheme">fb296617015464653</string>
+</resources>
