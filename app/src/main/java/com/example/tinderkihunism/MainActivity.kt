@@ -11,8 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
     }
 
     override fun onStart() {
@@ -20,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         if(auth.currentUser == null) {
             startActivity(Intent(this, LoginActivity::class.java))
+        }else {
+            startActivity(Intent(this, LikeActivity::class.java))
         }
     }
 
